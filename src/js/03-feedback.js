@@ -3,9 +3,9 @@ import throttle from "lodash.throttle";
 const MESSAGE_KEY = 'feedback-form-state';
 const data = {}
 
-const form = document.querySelector('.feedback');
-const textarea = document.querySelector('.feedback textarea');
-const input = document.querySelector('.feedback input');
+const form = document.querySelector('.feedback-form');
+const textarea = document.querySelector('.feedback-form textarea');
+const input = document.querySelector('.feedback-form input');
 
 onMessageOutput();
 onSaved();
